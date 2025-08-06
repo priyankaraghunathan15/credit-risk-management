@@ -81,11 +81,11 @@ This project builds a scalable machine learning pipeline to predict the risk of 
 
 ## Key Insights
 
-- **LightGBM and XGBoost models outperformed other classifiers**, achieving strong recall scores while maintaining moderate precision.
-- **Automated feature engineering via Featuretools yielded competitive results**, reducing manual overhead while maintaining model quality.
-- **CNN and RNN-based embeddings provided incremental improvements**, though tree-based models remained more interpretable and efficient.
-- **Threshold tuning significantly improved recall**, which is critical in credit risk contexts where failing to detect a defaulter is costlier than false positives.
-- **Combining undersampling and SMOTE led to a more balanced dataset**, allowing models to generalize better across minority and majority classes.
+- LightGBM and XGBoost models outperformed other classifiers, achieving strong recall scores while maintaining moderate precision.
+- Automated feature engineering via Featuretools yielded competitive results, reducing manual overhead while maintaining model quality.
+- CNN and RNN-based embeddings provided incremental improvements, though tree-based models remained more interpretable and efficient.
+- Threshold tuning significantly improved recall, which is critical in credit risk contexts where failing to detect a defaulter is costlier than false positives.
+- Combining undersampling and SMOTE led to a more balanced dataset, allowing models to generalize better across minority and majority classes.
 
 ---
 
@@ -114,9 +114,9 @@ Credit-Risk-Management/
 
 ---
 
-## Project Diagram
+## Entity Relationship Diagram
 
-![Model Pipeline](images/credit-risk-diagram.png)
+![Entity Relationship Diagram](images/credit-risk-diagram.png)
 
 ---
 
@@ -146,6 +146,4 @@ python main.py --model lightgbm --balance smote --threshold 0.09
 
 This project demonstrates the integration of advanced modeling and feature engineering techniques to build a reliable credit risk prediction system. By combining classical ML methods with deep learning-inspired feature extraction and robust handling of imbalanced data, the pipeline balances performance with interpretability—an essential trade-off in financial risk modeling. The results are promising and adaptable for real-world deployment in credit evaluation workflows.
 
-
-
-
+---
