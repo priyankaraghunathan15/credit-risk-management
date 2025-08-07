@@ -103,13 +103,33 @@ This project builds a scalable machine learning pipeline to predict the risk of 
 
 ```
 Credit-Risk-Management/
-├── data/                    # CSVs and raw data files
-├── notebooks/               # EDA and modeling notebooks
-├── src/                     # Python scripts (main.py, model.py)
-├── results/                 # Model outputs and reports
-├── images/                  # Figures and diagrams
-├── environment_hc.yml       # Conda environment file
-└── README.md
+├── images/
+│   ├── credit-risk.jpeg                  
+│   └── erd.jpeg
+
+├── imbalanced_strategies/      
+│   ├── HClustering_USample_SMOTE.ipynb
+│   └── HClusteringUnderSampling.ipynb
+
+├── ml_models/                 
+│   ├── CatBoost.ipynb
+│   ├── FCNN.ipynb
+│   ├── LGBM.ipynb
+│   └── XGBoost.ipynb
+
+├── notebooks/
+│   ├── lgbm_cnn_features.ipynb
+│   ├── lgbm_rnn_features.ipynb               
+│   └── xgboost_auto_features.ipynb
+
+├── src/                        # Python scripts (modularized)
+│   ├── main.py
+│   └── model.py
+
+├── environment_hc.yml          # Conda environment configuration
+├── .gitattributes              # Git attributes config
+└── README.md                   # Project documentation
+
 ```
 
 ---
