@@ -1,7 +1,11 @@
 
-# Credit Risk Management Using Machine Learning
+<h1 align="center">Credit Risk Management Using Machine Learning</h1>
 
 This project builds a scalable machine learning pipeline to predict the risk of loan default using the Home Credit dataset. By integrating manual, automated, and deep learning-based feature engineering with traditional and deep learning models, it offers a robust framework for creditworthiness assessment in financial services.
+
+<p align="center">
+  <img src="images/credit-risk.png" alt="Credit Risk Image" width="650"/>
+</p>
 
 ---
 
