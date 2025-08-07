@@ -109,7 +109,7 @@ This project builds a scalable machine learning pipeline to predict the risk of 
 Credit-Risk-Management/
 ├── images/
 │   ├── credit-risk.jpeg                  
-│   └── erd.jpeg
+│   └── ERD.jpeg
 
 ├── imbalanced_strategies/      
 │   ├── HClustering_USample_SMOTE.ipynb
