@@ -140,7 +140,7 @@ Credit-Risk-Management/
 
 ## Entity Relationship Diagram
 
-![Entity Relationship Diagram](images/erd.png)
+![Entity Relationship Diagram](images/ERD.png)
 
 ---
 
